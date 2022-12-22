@@ -1,1 +1,2 @@
-const character = new Character();
+const mametchi = new Character("Mametchi");
+ const gozarutchi = new Character("Gozarutchi");

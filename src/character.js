@@ -1,5 +1,11 @@
 function Character(name) {
     this.name = name;
-} // create the Character function
+    this.age = 0;
+  }
+  
+  Character.prototype.growUp = function () {
+    this.age += 1;
+  };
+
  
  module.exports = Character; // export it from the file
