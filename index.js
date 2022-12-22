@@ -1,0 +1,1 @@
+const character = new Character();
